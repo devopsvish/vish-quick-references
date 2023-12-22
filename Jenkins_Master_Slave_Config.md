@@ -14,7 +14,7 @@
 
 ## Steps to be carried on Slave machine:
 1. Navigate to **`.ssh`** folder, run the following command to copy the output **`cat id_rsa.pub`**
-2. Paste the copied content after the first key.
+2. In the `authorized_keys` file, Paste the copied content after the already present first key.
 3. Copy the private key by running the following command **`cat id_rsa`**
 > *Caution: Don’t modify the already present key else you will not be able to SSH onto the slave machine*
 

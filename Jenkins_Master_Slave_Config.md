@@ -6,8 +6,11 @@
 
 ## Steps to Generate the Key pair:
 1. Run the **`ssh-keygen`** command to generate the key pair 
-2. The following 3 prompts are asked, hit enter by default for default config. **`Enter file in which to save the key (/home/ubuntu/.ssh/id_rsa):`  `Enter passphrase (empty for no passphrase):`  `Enter the same passphrase again:`**
-3. Now public and private keys are generated in the default `.ssh` folder of the user.
+2. The following 3 prompts are asked, hit enter by default for default config.
+    * `Enter file in which to save the key (/home/ubuntu/.ssh/id_rsa):`
+    * `Enter passphrase (empty for no passphrase):`
+    * `Enter the same passphrase again:`**
+4. Now public and private keys are generated in the default `.ssh` folder of the user.
 
 ## Steps to be carried on Slave machine:
 1. Navigate to **`.ssh`** folder, run the following command to copy the output **`cat id_rsa.pub`**
